@@ -7,12 +7,12 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const page = await $content('minutes', params.minute, 'index').fetch()
+    async asyncData ({ $content, params }) {
+        const page = await $content("minutes", params.minute, "index").fetch()
 
-    return {
-      page
+        return {
+            page
+        }
     }
-  }
 }
 </script>
