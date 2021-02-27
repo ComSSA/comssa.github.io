@@ -45,13 +45,61 @@ $COMSSA_DARK_BLUE: #1C2B5E;
 
 #carousel {
     width: 100%;
-    margin-left: auto;
-    margin-top: 50px;
-
-    float: right;
-
     overflow-y: hidden;
+    min-width: 600px;
 }
+
+#headline {
+    span {
+        color: $COMSSA_BLUE;
+    }
+
+    margin-top: 50px;
+    font-size: 48pt;
+}
+
+
+#join-link {
+    display: flex;
+
+    margin-top: 30px;
+    width: 240px;
+    justify-content: left;
+}
+
+#join-link a{
+    font-size: 22pt;
+    margin-right: 50px;
+
+    color: black;
+}
+
+#join-link #arrow {
+    width: 30px;
+    margin-left: -42px; /*sorry*/
+}
+
+#join-link a {
+    text-decoration: none;
+}
+
+#join-link a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: $COMSSA_BLUE;
+    transition: width 0.1s ease 0s, left 0.1s ease 0s;
+    width: 0;
+}
+
+#join-link a:hover:after {
+    width: 140px;
+    left: 0;
+}
+
 
 .page-enter-active,
 .page-leave-active {
@@ -270,97 +318,6 @@ a, a:hover, a:link, a:active, a:visited {
 .shadow { //Navbar Shadow
     box-shadow: 1px 1px 10px rgb(187, 187, 187);
     transition: box-shadow 0.2s ease-in-out;
-}
-
-.idx { //Homepage
-    .level_1 {
-        display: flex;
-        margin-bottom: 70px;
-    }
-
-    .level_2 {
-        display: flex;
-    }
-
-    .level_2 #image_2 {
-        width: 60%;
-        height: 30%;
-        max-height: 500px;
-    }
-
-    .level_2 #info {
-        padding-left: 50px;
-        padding-right: 50px;
-        min-width: 300px;
-    }
-
-    #headline {
-        margin-right: 50px;
-    }
-
-
-    #title {
-        margin-top: 50px;
-        font-size: 48pt;
-    }
-
-    #join_link {
-        display: flex;
-
-        margin-top: 30px;
-        width: 240px;
-        justify-content: left;
-    }
-
-    #join_link a{
-        font-size: 22pt;
-        margin-right: 50px;
-
-        color: black;
-    }
-
-    #join_link #arrow {
-        width: 30px;
-        margin-left: -42px; /*sorry*/
-    }
-
-    #join_link a {
-        text-decoration: none;
-    }
-
-    #join_link a:after {
-        background: none repeat scroll 0 0 transparent;
-        bottom: 0;
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        background: $COMSSA_BLUE;
-        transition: width 0.1s ease 0s, left 0.1s ease 0s;
-        width: 0;
-    }
-
-    #join_link a:hover:after {
-        width: 140px;
-        left: 0;
-    }
-
-    #headline span{
-        color: $COMSSA_BLUE;
-    }
-
-    #image_1 {
-        margin-left: auto;
-
-        width: 65%;
-        height: 65%;
-        max-width: 800px;
-        margin-top: 50px;
-
-        float: right;
-
-        overflow-x: hidden;
-    }
 }
 
 .about {
@@ -596,40 +553,6 @@ a, a:hover, a:link, a:active, a:visited {
 @media screen and (max-width: 900px) {
     .content {
         margin-top: 100px;
-    }
-
-    .idx {
-        #title {
-            font-size: 36pt;
-
-            margin-top: -5px; //Another sin, i really cbf
-        }
-
-        .level_1 {
-            display: block;
-        }
-
-        .level_2 {
-            display: block;
-        }
-
-        #image_1 {
-            width: 100%;
-        }
-
-        .level_2 #image_2 {
-            width: 100%;
-            margin-top: 30px;
-
-            max-height: none;
-        }
-
-        .level_2 #info {
-            padding: 0px;
-            min-width: 0px;
-
-            margin-top: 50px;
-        }
     }
 
     .about {

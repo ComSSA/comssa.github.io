@@ -1,29 +1,34 @@
 <template>
-  <div class="idx">
-    <div class="level_1">
-      <div id="headline">
-        <h1 id="title">
+  <b-container fluid>
+    <b-row class="mb-5">
+      <b-col>
+        <h1 id="headline">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
           <span>S</span>tudents <br>
           <span>A</span>ssociation
         </h1>
-
-        <div id="join_link">
+        <div id="join-link">
           <NuxtLink to="/join">
             Join Now
           </NuxtLink>
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
-      </div>
+      </b-col>
+      <b-col class="mt-5">
+        <Slideshow root-dir="posters" :images="images" />
+      </b-col>
+    </b-row>
 
-      <Slideshow root-dir="posters" :images="images" />
-    </div>
-
-    <div class="level_2">
-      <img id="image_2" src="~/assets/img/comssa-stall.jpg">
-
-      <div id="info">
+    <b-row>
+      <b-col>
+        <b-img
+          id="image_2"
+          :src="require('~/assets/img/comssa-stall.jpg')"
+          fluid
+        />
+      </b-col>
+      <b-col>
         <h2>Who are we?</h2>
 
         <p>
@@ -50,9 +55,9 @@
           ComSSA is affiliated with Curtin Student Guild which means if you are a Curtin student
           and have a voucher from the guild diary then membership is free.
         </p>
-      </div>
-    </div>
-  </div>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
