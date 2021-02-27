@@ -1,8 +1,9 @@
 $COMSSA_BLUE: #4559A7;
 $COMSSA_DARK_BLUE: #1C2B5E;
+$enable-responsive-font-sizes: true;
 
-@import 'bootstrap/dist/css/bootstrap.css';
-@import 'bootstrap-vue/dist/bootstrap-vue.css';
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
 
 @font-face {
     font-family: 'Montserrat';
@@ -46,7 +47,7 @@ $COMSSA_DARK_BLUE: #1C2B5E;
 #carousel {
     width: 100%;
     overflow-y: hidden;
-    min-width: 600px;
+    max-height: 480px;
 }
 
 #headline {
@@ -55,7 +56,7 @@ $COMSSA_DARK_BLUE: #1C2B5E;
     }
 
     margin-top: 50px;
-    font-size: 48pt;
+    font-weight: 600;
 }
 
 
@@ -144,7 +145,7 @@ a, a:hover, a:link, a:active, a:visited {
 .content {
     margin: auto;
 
-    margin-top: 120px;
+    margin-top: 80px;
 
     width: 80%;
     max-width: 1400px;
@@ -320,155 +321,8 @@ a, a:hover, a:link, a:active, a:visited {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-.about {
-    .about_info {
-        width: 100%;
-        display: flex;
-
-        justify-content: space-between;
-    }
-
-    .about_info p{
-        margin-right: 120px;
-    }
-
-    .about #gap {
-        margin: 10px;
-    }
-
-    #about_image_1 {
-        height: 50%;
-        width: 50%;
-
-        border-radius: 10px;
-    }
-
-    .exec_profile {
-        display: flex;
-
-        justify-content: space-between;
-    }
-
-    #committee_heading {
-        margin-top: 60px;
-    }
-
-    #ocm_title {
-        margin-top: 60px;
-    }
-
-    #ecm_title {
-        margin-top: 30px;
-    }
-
-    .ocm_profile {
-        #row {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #center {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-around;
-        }
-    }
-
-    .exec_profile {
-        margin-top: 20px;
-    }
-
-    .profile {
-        #name {
-            padding-top: 10px;
-            font-size: 16pt;
-            font-weight: 600;
-        }
-
-        #title {
-            font-size: 14pt;
-            font-weight: 400;
-        }
-
-        #text_container {
-            max-width: 200px;
-        }
-    }
-}
-
-.events {
-    .event_info {
-        width: 100%;
-        display: flex;
-
-        justify-content: space-between;
-    }
-
-    .event_info p {
-        margin-right: 120px;
-        min-width: 250px;
-    }
-
-    .fb-event-embed {
-        background: white;
-
-        font-family: 'Roboto Mono', monospace;
-        font-style: italic;
-
-        min-width: max-content;
-    }
-
-    .fb-timeline-embed {
-        margin-left: 70px;
-        background: white;
-
-        height: 500px;
-        min-width: 330px;
-
-        font-family: 'Roboto Mono', monospace;
-        font-style: italic;
-    }
-
-    .row_2 {
-        margin-top: 40px;
-        display: flex;
-    }
-
-    #discord_embed {
-        height: 500px;
-        width: 300px;
-    }
-
-    #event_image_1 {
-        height: 45%;
-        margin-top: 20px;
-        margin-left: 70px;
-        border-radius: 10px;
-    }
-}
-
-.sponsors {
-    .wordmark img {
-        width: 25%;
-
-        padding: 30px;
-    }
-
-    #csg {
-        width: max-content;
-        padding-top: 80px;
-        margin-bottom: -170px;
-    }
-
-    .wordmark #row {
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
 .footer {
-    margin-top: 100px;
+    margin-top: 60px;
 
     background-color: rgb(247, 247, 247);
     border-bottom: 10px solid $COMSSA_BLUE;
@@ -485,9 +339,6 @@ a, a:hover, a:link, a:active, a:visited {
         margin: auto;
         width: 80%;
         max-width: 1400px;
-
-        display: flex;
-        justify-content: space-between;
     }
 
     .content h1 {
@@ -541,159 +392,6 @@ a, a:hover, a:link, a:active, a:visited {
 
     .content #accreditation a {
         color: #696969;
-    }
-}
-
-.join {
-    #subheading {
-        margin-top: 30px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .content {
-        margin-top: 100px;
-    }
-
-    .about {
-        .about_info {
-            width: 100%;
-
-            display: block;
-        }
-
-        .about_info p{
-            margin-right: 0px;
-        }
-
-        #gap {
-            margin: 10px;
-        }
-
-        #about_image_1 {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            width: 100%;
-        }
-
-        .exec_profile {
-            display: block;
-        }
-
-        .ocm_profile #row {
-            margin-top: 10px;
-            display: block;
-        }
-
-        .ocm_profile #center {
-            margin-top: 10px;
-            display: block;
-        }
-
-        .profile {
-            padding-bottom: 20px;
-
-            width: 100%;
-            display: flex;
-
-            #text_container {
-                margin-left: 20px;
-            }
-
-            #image {
-                max-width: 175px;
-            }
-        }
-    }
-
-    .events {
-        .event_info  {
-            display: block;
-        }
-
-        .event_info p {
-            margin-right: 0px;
-        }
-
-        .row_2 {
-            display: block;
-        }
-
-        #discord_embed {
-            width: 100%;
-        }
-
-        .fb-timeline-embed {
-            margin-top: 30px;
-            margin-left: 0px;
-
-            overflow: hidden;
-            max-width: 330px;
-
-            min-width: 0px;
-        }
-
-        /*.fb-event-embed {
-            margin-top: 50px;
-
-            overflow: hidden;
-            max-width: 330px;
-
-            min-width: 0px;
-        }*/
-
-        #event_image_1 {
-            width: 100%;
-            height: 100%;
-            margin-left: 0px;
-            margin-top: 40px;
-        }
-    }
-
-    .sponsors {
-        .wordmark #row {
-            display: block;
-        }
-
-        .guild {
-            display: table-cell;
-            vertical-align: middle;
-            text-align: center;
-        }
-
-        #csg {
-            width: 100px;
-
-            padding-top: 0px;
-            margin: 0px;
-        }
-
-        .wordmark img {
-            width: 100%;
-
-            padding: 30px;
-        }
-    }
-
-    .footer {
-        height: 510px;
-
-        .content #guild_logo {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-
-        .content {
-            display: block;
-        }
-
-        .content .right {
-            float: none;
-        }
-
-        .content #accreditation {
-            margin-top: 15px;
-        }
     }
 }
 

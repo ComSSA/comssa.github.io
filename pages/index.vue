@@ -1,8 +1,8 @@
 <template>
   <b-container fluid>
     <b-row class="mb-5">
-      <b-col>
-        <h1 id="headline">
+      <b-col md="auto">
+        <h1 id="headline" class="display-3">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
           <span>S</span>tudents <br>
@@ -15,15 +15,17 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col class="mt-5">
+      <b-col class="mt-5 ml-md-5">
         <Slideshow root-dir="posters" :images="images" />
       </b-col>
     </b-row>
 
     <b-row>
-      <b-col>
+      <b-col md="auto">
         <b-img
-          id="image_2"
+          class="mb-5"
+          width="600"
+          rounded="true"
           :src="require('~/assets/img/comssa-stall.jpg')"
           fluid
         />
