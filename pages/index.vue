@@ -25,7 +25,6 @@
         <b-img
           class="mb-5"
           width="600"
-          rounded="true"
           :src="require('~/assets/img/comssa-stall.jpg')"
           fluid
         />
