@@ -12,7 +12,6 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <!-- Text slides with image -->
       <div v-for="image in images" :key="image">
         <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
       </div>
