@@ -1,6 +1,43 @@
 <template>
+  <b-container fluid>
+    <h1 class="mt-3">
+      Socials
+    </h1>
+    <b-row align-h="center" class="mt-5">
+      <b-col cols="4">
+        <iframe
+          id="discord_embed"
+          src="https://discord.com/widget?id=673182254930984980&theme=dark"
+          allowtransparency="true"
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        />
+      </b-col>
+      <b-col cols="4">
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/ComSSACurtin"
+          data-tabs="timeline"
+          data-width=""
+          data-height="500"
+          data-small-header="true"
+          data-adapt-container-width="true"
+          data-hide-cover="true"
+          data-show-facepile="true"
+        >
+          Facebook timeline (may be blocked by your ad/tracker-blocker - fair enough)
+          <blockquote
+            cite="https://www.facebook.com/ComSSACurtin"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/ComSSACurtin" />
+          </blockquote>
+        </div>
+      </b-col>
+    </b-row>
+  </b-container>
+<!--
   <div class="events">
-    <h1>Socials</h1>
 
     <div class="event_info">
       <p>
@@ -40,6 +77,7 @@
       </div>
     </div>
   </div>
+-->
 </template>
 
 <script>

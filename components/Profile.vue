@@ -1,7 +1,7 @@
 <template>
   <b-container class="profile">
     <div>
-      <b-img :src="require(`~/assets/img/profile/${source}`)" />
+      <b-img id="rounded-corner" :src="require(`~/assets/img/profile/${source}`)" />
     </div>
     <div>
       <div id="name">

@@ -41,7 +41,7 @@
     <h3>
       Executive Committee Members
     </h3>
-    <b-row class="mt-3 mb-3">
+    <b-row align-h="around" class="mt-3 mb-3">
       <b-col>
         <Profile
           name="Augustine Italiano"
@@ -74,7 +74,7 @@
     <h3>
       Ordinary Committee Members
     </h3>
-    <b-row class="mt-3 justify-content-around">
+    <b-row align-h="around" class="mt-3">
       <b-col>
         <Profile
           name="Anurag Singh"
@@ -99,7 +99,7 @@
         />
       </b-col>
     </b-row>
-    <b-row class="mt-3 justify-content-around">
+    <b-row align-h="around" class="mt-3">
       <b-col>
         <Profile
           name="Haley Workman"
@@ -125,14 +125,14 @@
         />
       </b-col>
     </b-row>
-    <b-row class="mt-3 justify-content-end">
-      <b-col>
+    <b-row align-h="around" class="mt-3">
+      <b-col cols="4">
         <Profile
           name="Tanaka Chitete"
           source="tanaka.jpg"
         />
       </b-col>
-      <b-col>
+      <b-col cols="4">
         <Profile
           name="Warittha Rayabsri"
           source="warittha.jpg"

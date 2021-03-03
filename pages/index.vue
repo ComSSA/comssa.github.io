@@ -23,6 +23,7 @@
     <b-row>
       <b-col md="auto">
         <b-img
+          id="rounded-corner"
           class="mb-5"
           width="600"
           :src="require('~/assets/img/comssa-stall.jpg')"

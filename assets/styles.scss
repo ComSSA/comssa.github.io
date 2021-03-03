@@ -68,6 +68,11 @@ $enable-responsive-font-sizes: true;
     border-radius: 10px;
 }
 
+#discord_embed {
+    height: 500px;
+    width: 300px;
+}
+
 #headline {
     span {
         color: $COMSSA_BLUE;
@@ -119,6 +124,9 @@ $enable-responsive-font-sizes: true;
     left: 0;
 }
 
+#rounded-corner {
+    border-radius: 10px;
+}
 
 .page-enter-active,
 .page-leave-active {
@@ -166,10 +174,6 @@ a, a:hover, a:link, a:active, a:visited {
 
     width: 80%;
     max-width: 1400px;
-
-    img {
-        border-radius: 10px;
-    }
 }
 
 .navbar-light {
