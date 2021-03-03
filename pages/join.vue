@@ -10,7 +10,9 @@
       <li>Get free access to select events.</li>
     </ul>
 
-    <h2>Joining ComSSA</h2>
+    <h2 class="mt-3">
+      Joining ComSSA
+    </h2>
     To get the most out of ComSSA, you’ll want to become an official member. You’ll receive a membership sticker to place on
     your Curtin ID card, which will entitle you to a range of discounts with our sponsors, access to our services, as well as
     special member pricing for our events. You can become a member of ComSSA for $5 if you’re a Curtin Guild Member or for free
@@ -21,10 +23,11 @@
       In-Person
     </h2>
     Talk to a committee member around building 314 at Curtin and we’ll be happy to sign you up. You can often find us hanging
-    out in the Comssa Common Room, Room 345 Level 3 Building 314. If you’re not sure who we are, <NuxtLink to="/about">
+    out in the Comssa Common Room, Room 345 Level 3 Building 314. If you’re not sure who we are,
+    <NuxtLink to="/about">
       find out more about us
     </NuxtLink> or check
-    the committee posters on one of the notice boards in 314 . Can’t find a committee member? Contact a committee member through
+    the committee posters on one of the notice boards in 314. Can’t find a committee member? Contact a committee member through
     discord and setup a time.
 
     <h2 class="mt-3">
