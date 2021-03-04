@@ -28,8 +28,8 @@
       </b-col>
       <b-col class="mt-5">
         <b-img
-          class="mb-5"
           id="rounded-corner"
+          class="mb-5"
           width="600"
           :src="require('~/assets/img/revision.jpg')"
           fluid

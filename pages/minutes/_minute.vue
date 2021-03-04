@@ -1,8 +1,8 @@
 <template>
-  <div class="minutes">
+  <b-container fluid>
     <h1>{{ page.title }}</h1>
     <nuxt-content :document="page" />
-  </div>
+  </b-container>
 </template>
 
 <script>

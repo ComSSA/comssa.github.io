@@ -22,11 +22,42 @@
 
       Have a suggestion for a particular event? <a href="https://forms.gle/pEA8MzaRAnABjN5f6">Let us know</a>.
     </p>
+
+    <h3>
+      Guild O-Day 2021
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <Slideshow css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+    </b-row>
+
+    <h3 class="mt-3">
+      Sundowner 2020
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <Slideshow css="events-carousel" root-dir="events/sundowner2020" :images="sundowner2020" />
+    </b-row>
   </b-container>
 </template>
 
 <script>
+const getGuildODay = () =>
+    Array.from(require.context("~/assets/img/events/guildoday", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+const getSundowner2020 = () =>
+    Array.from(require.context("~/assets/img/events/sundowner2020", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+console.log(getSundowner2020())
+
 export default {
+    data () {
+        return {
+            guildoday: getGuildODay(),
+            sundowner2020: getSundowner2020()
+        }
+    },
+
     head: {
         title: "Events"
     },

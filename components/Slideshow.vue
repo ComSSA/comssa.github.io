@@ -1,19 +1,19 @@
 <template>
   <div>
     <b-carousel
-      id="carousel"
+      :id="css"
       v-model="slide"
       :interval="4000"
       controls
       fade
       indicators
-      img-width="1024"
-      img-height="480"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
       <div v-for="image in images" :key="image">
-        <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
+        <NuxtLink :to="`/${removeExtension(image)}`">
+          <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
+        </NuxtLink>
       </div>
     </b-carousel>
   </div>
@@ -22,6 +22,10 @@
 <script>
 export default {
     props: {
+        css: {
+            type: String,
+            required: true
+        },
         rootDir: {
             type: String,
             required: true
@@ -38,6 +42,10 @@ export default {
         }
     },
     methods: {
+        removeExtension (s) {
+            return s.replace(/\.[^/.]+$/, "")
+        },
+
         onSlideStart (slide) {
             this.sliding = true
         },

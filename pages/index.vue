@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
-    <b-row class="mb-5">
-      <b-col md="auto">
+    <b-row align-h="between" class="mb-5">
+      <b-col>
         <h1 id="headline" class="display-3">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
@@ -15,8 +15,8 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col class="mt-5 ml-md-5">
-        <Slideshow root-dir="posters" :images="images" />
+      <b-col class="mt-5 mt-md-3">
+        <Slideshow css="front-page-carousel" root-dir="posters" :images="images" />
       </b-col>
     </b-row>
 
@@ -64,7 +64,7 @@
 
 <script>
 const getPostersArray = () =>
-    Array.from(require.context("~/assets/img/posters", true, /\.jpg$/).keys()).map(s => s.substr(2))
+    Array.from(require.context("~/assets/img/posters", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 export default {
     data () {
