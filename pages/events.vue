@@ -48,8 +48,6 @@ const getGuildODay = () =>
 const getSundowner2020 = () =>
     Array.from(require.context("~/assets/img/events/sundowner2020", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
-console.log(getSundowner2020())
-
 export default {
     data () {
         return {
