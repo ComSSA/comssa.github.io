@@ -1,1 +1,0 @@
-window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1691738886",layout:"error",error:{statusCode:404,message:"{\n  \"statusCode\": 404\n}"},serverRendered:false,routePath:"\u002Fevents\u002FCSING%20Hackathon%20Portrait",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:null},content:{dbHash:"b25b294c"}}};
