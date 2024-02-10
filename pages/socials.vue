@@ -30,21 +30,21 @@
             cite="https://www.facebook.com/ComSSACurtin"
             class="fb-xfbml-parse-ignore"
           >
-            <a href="https://www.facebook.com/ComSSACurtin" />
+            <a href="https://www.facebook.com/ComSSACurtin" target="_blank"/>
           </blockquote>
         </div>
       </b-col>
       <b-col md="6" xl="4" class="pl-xl-4">
         <div class="d-flex align-items-center mb-2">
           <img src="https://res.cloudinary.com/dec6mijn3/image/upload/v1695113798/ComSSA-Website/General/instagram.webp" alt="Instagram Logo" width="40" height="40" class="mr-2">
-          <a href="https://www.instagram.com/comssacurtin/">
+          <a href="https://www.instagram.com/comssacurtin/" target="_blank">
             ComSSACurtin
           </a>
         </div>
         <p> Check out our Instagram! </p>
         <div class="d-flex align-items-center mb-2 mt-5">
           <img src="https://res.cloudinary.com/dec6mijn3/image/upload/v1696060786/LinkedIn_icon_iwt4qk.svg" alt="Linkedin Logo" width="40" height="40" class="mr-2">
-          <a href="https://www.linkedin.com/company/computer-science-students-association/">
+          <a href="https://www.linkedin.com/company/computer-science-students-association/" target="_blank">
             ComSSA Linkedin
           </a>
         </div>

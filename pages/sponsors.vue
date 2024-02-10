@@ -16,7 +16,7 @@
       </h2>
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
-          <a href="https://www.vgw.co/">
+          <a href="https://www.vgw.co/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1686654371/ComSSA-Website/Sponsors/vgw.png'"
@@ -26,7 +26,7 @@
         </b-col>
 
         <b-col cols="4" class="tomahawkLabs">
-          <a href="https://tomahawklabs.com.au/">
+          <a href="https://tomahawklabs.com.au/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/tomahawk-labs.png'"
@@ -43,7 +43,7 @@
       </h2>
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
-          <a href="https://www.atlassian.com/">
+          <a href="https://www.atlassian.com/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
@@ -60,7 +60,7 @@
       </h2>
       <b-row align-h="around" class="mb-3 align-items-center">
         <b-col cols="4">
-          <a href="https://www.imc.com/">
+          <a href="https://www.imc.com/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/imc.png'"
@@ -70,7 +70,7 @@
         </b-col>
 
         <b-col cols="4">
-          <a href="https://www.bankwest.com.au/">
+          <a href="https://www.bankwest.com.au/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/bankwest.png'"
@@ -82,7 +82,7 @@
 
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
-          <a href="https://redisoftware.com.au/">
+          <a href="https://redisoftware.com.au/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
@@ -92,7 +92,7 @@
         </b-col>
 
         <b-col cols="4">
-          <a href="https://www.mechanicalrock.io/">
+          <a href="https://www.mechanicalrock.io/" target="_blank">
             <b-img
               width="450"
               :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_450/v1691926726/ComSSA-Website/Sponsors/mechanical-rock.webp'"
@@ -109,7 +109,7 @@
 
     <b-row align-h="center" class="mt-5">
       <b-col cols="4">
-        <a href="https://about.curtin.edu.au/learning-teaching/science-engineering/school-of-electrical-engineering-computing-and-mathematical-sciences/">
+        <a href="https://about.curtin.edu.au/learning-teaching/science-engineering/school-of-electrical-engineering-computing-and-mathematical-sciences/" target="_blank">
           <b-img
             center
             width="450"
