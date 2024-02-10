@@ -21,10 +21,10 @@
           <b-nav-item class="links" to="/sponsors">
             Sponsors
           </b-nav-item>
-          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1L01aRP06CmL2I64O0qN6EaOo2VE3Lnz9?usp=sharing">
+          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1L01aRP06CmL2I64O0qN6EaOo2VE3Lnz9?usp=sharing" target="_blank">
             Minutes
           </b-nav-item>
-          <b-nav-item class="links" href="https://hackathon.comssa.org.au/">
+          <b-nav-item class="links" href="https://hackathon.comssa.org.au/" target="_blank">
             <p class="hackathon">
               Hackathon
             </p>
