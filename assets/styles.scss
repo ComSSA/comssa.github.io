@@ -318,6 +318,7 @@ a, a:hover, a:link, a:active, a:visited {
 .navbar { //Navbar
     position: fixed;
     width: 100%;
+    display: flex;
     background-color: white;
 
     padding-bottom: 20px;
@@ -417,7 +418,7 @@ a, a:hover, a:link, a:active, a:visited {
 
         background-color: $COMSSA_BLUE;
         color: white;
-        font-size: 11pt;
+        font-size: 0.6em;
 
         font-weight: 500;
     }

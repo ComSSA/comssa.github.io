@@ -4,8 +4,8 @@
       <b-row>
         <b-col class="my-5" sm="12" lg="4">
           <h1>
-            Computer Science <br>Students Association<br>
-            <span id="acronym">(ComSSA)</span>
+            Curtin Computer Science <br>Students Association<br>
+            <span id="acronym">(CComSSA)</span>
           </h1>
           <p>
             Department of Computing<br>
