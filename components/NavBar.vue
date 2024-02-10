@@ -31,7 +31,7 @@
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-button style="display: inline-flex; align-items: center;" variant="primary" href="https://discord.gg/EaSUQ4SrPb">
+          <b-button style="display: inline-flex; align-items: center;" variant="primary" href="https://discord.gg/EaSUQ4SrPb" target="_blank">
             <img class="mr-2" src="~/assets/img/icon/social/discord.svg" height="18px">
             <span >Join our Discord</span>
           </b-button>
