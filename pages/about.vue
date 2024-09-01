@@ -170,6 +170,26 @@
         />
       </b-col>
     </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Kevin Chin"
+          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Laura Jiang"
+          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Tri Dao"
+          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
+        />
+      </b-col>
+    </b-row>
     <h3 class="ord-subheading">
       Sub-Committee Members
       <!--Added extra row to balance subs better-->
