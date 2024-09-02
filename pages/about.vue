@@ -149,14 +149,14 @@
           source="v1708440447/ComSSA-Website/Profile-2024/Patrick_Jong_bvqef4.jpg"
         />
       </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Mia Tran"
           source="v1694963645/ComSSA-Website/Profile-2024/Mia_Tran"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Joleen Chong"
@@ -167,6 +167,12 @@
         <CloudProfile
           name="Prasanna Asokan"
           source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Laura Jiang"
+          source="v1725282869/ComSSA-Website/Profile-2024/Laura_Jiang_eropy8.jpg"
         />
       </b-col>
     </b-row>
@@ -193,10 +199,18 @@
           source="v1694963645/ComSSA-Website/Profile-2024/Hua_Chen"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Jeton Hasani"
-          source="v1694963645/ComSSA-Website/Profile-2024/Jeton_Hasani"
+          name="Kevin Chin"
+          source="v1725282869/ComSSA-Website/Profile-2024/Kevin_Chin_yfq0pl.jpg"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Tri Dao"
+          source="v1725282869/ComSSA-Website/Profile-2024/Tri_Dao_uw5xyc.jpg"
         />
       </b-col>
     </b-row>
