@@ -70,6 +70,11 @@ export default {
 
 <style scoped>
   .navbar {
-    top: 20px;
+    top: 40px;
+  }
+  @media (min-width: 576px) {
+    .navbar {
+      top: 20px;
+    }
   }
 </style>
