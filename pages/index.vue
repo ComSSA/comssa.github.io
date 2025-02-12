@@ -53,7 +53,7 @@
           open to everyone, even if you’re not a student! <br><br>
 
           Committee members can be found throughout the level 2 labs
-          in building 314 or in the ComSSA common room (314.345).
+          in building 314 or in the ComSSA common room (314.127).
           <NuxtLink to="/about">
             Not sure who we are?
           </NuxtLink>
