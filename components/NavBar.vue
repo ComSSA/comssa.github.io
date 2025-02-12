@@ -67,3 +67,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+  .navbar {
+    top: 20px;
+  }
+</style>
