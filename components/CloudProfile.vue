@@ -5,7 +5,6 @@
         <v-lazy-image
           class="rounded-corner portrait"
           :src="image"
-          :src-placeholder="placeholder"
         />
       </b-col>
     </b-row>
@@ -33,18 +32,11 @@ export default {
         title: {
             type: String,
             default: ""
-        },
-        source: {
-            type: String,
-            required: true
         }
     },
     computed: {
-        placeholder () {
-            return "https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/" + this.source
-        },
         image () {
-            return "https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_500/" + this.source
+            return "https://cdn.comssa.org.au/committee-photos-2025/" + this.name.replace(/\s+/g, "%20") + ".JPG"
         }
     }
 }
