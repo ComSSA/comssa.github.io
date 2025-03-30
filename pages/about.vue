@@ -45,30 +45,26 @@
     <b-row align-h="around" class="mt-3 mb-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Justin Pan"
+          name="Sophie Melville"
           title="President"
-          source="v1708440423/ComSSA-Website/Profile-2024/Justin_Pan_evzkb0.jpg"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Haylee Jackson"
-          title="Vice President"
-          source="v1708440418/ComSSA-Website/Profile-2024/Haylee_Jackson_jrj8sq.jpg"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Kai Chen Chai"
-          title="Treasurer"
-          source="v1708440438/ComSSA-Website/Profile-2024/Kai_Chen_Chai_evv3od.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Sean McGinty"
+          title="Vice President"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Stanley Zhong"
+          title="Treasurer"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Cindy Lawrence"
           title="Secretary"
-          source="v1708440459/ComSSA-Website/Profile-2024/Sean_McGinty_shvbqi.jpg"
         />
       </b-col>
     </b-row>
@@ -78,101 +74,86 @@
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Cindy Lawrence"
+          name="Khidir Azhar"
           title="Events Coordinator"
-          source="v1708440394/ComSSA-Website/Profile-2024/Cindy_Law_taiavl.jpg"
         />
       </b-col><b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Sophie Melville"
+          name="Ethan Olson"
           title="Marketing Coordinator"
-          source="v1708440464/ComSSA-Website/Profile-2024/Sophie_Melville_amrpp4.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Joseph Scott"
+          name="Justis Koh"
           title="Technical Coordinator"
-          source="v1708440434/ComSSA-Website/Profile-2024/Joseph_Scott_d0havo.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Stanley Zhong"
+          name="Joleen Chong"
           title="Revision Session Coordinator"
-          source="v1708440462/ComSSA-Website/Profile-2024/Stanley_Zhong_obkk99.jpg"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3 text-center">
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Ethan Olson"
-          source="v1708440417/ComSSA-Website/Profile-2024/Ethan_Olson_bcbym5.jpg"
-        />
-      </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Alice Arvidson"
-          source="v1708440403/ComSSA-Website/Profile-2024/Alice_Arvidson_co2vs2.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Hyeonji Shin"
-          source="v1708440394/ComSSA-Website/Profile-2024/Hyeonji_Shin_asd.jpg"
+          name="Henry Truong"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Nicholas Wright"
-          source="v1708440447/ComSSA-Website/Profile-2024/Nicholas_Wright_esmebk.jpg"
+          name="Jimmy Yang"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Kai Chen Chai"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Nikki Doan"
-          source="v1708440449/ComSSA-Website/Profile-2024/Nikki_Doan_j7hzco.jpg"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Jacob Jonas"
-          source="v1708440422/ComSSA-Website/Profile-2024/Jake_Jonas_tj9p1y.jpg"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Patrick Jong"
-          source="v1708440447/ComSSA-Website/Profile-2024/Patrick_Jong_bvqef4.jpg"
+          name="Laura Jiang"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Mia Tran"
-          source="v1694963645/ComSSA-Website/Profile-2024/Mia_Tran"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Nathaniel White"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Nikki Doan"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Joleen Chong"
-          source="v1694963645/ComSSA-Website/Profile-2024/Joleen_Chong"
+          name="Peter Dang"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Prasanna Asokan"
-          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
+          name="Raphael Ho"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Laura Jiang"
-          source="v1725282869/ComSSA-Website/Profile-2024/Laura_Jiang_eropy8.jpg"
+          name="Tri Dao"
         />
       </b-col>
     </b-row>
@@ -184,33 +165,16 @@
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Daniela Degasperi"
-          source="v1691929076/ComSSA-Website/Profile-2024/Daniela_Degasperi_ijoafjpi.webp"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Khidir Azhar"
-          source="v1708440445/ComSSA-Website/Profile-2024/Khidir_Azhar_ffvbws.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Hua Chen"
-          source="v1694963645/ComSSA-Website/Profile-2024/Hua_Chen"
-        />
-      </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3 text-center">
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Kevin Chin"
-          source="v1725282869/ComSSA-Website/Profile-2024/Kevin_Chin_yfq0pl.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Tri Dao"
-          source="v1725282869/ComSSA-Website/Profile-2024/Tri_Dao_uw5xyc.jpg"
+          name="Patrick Jong"
         />
       </b-col>
     </b-row>

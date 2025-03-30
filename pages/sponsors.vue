@@ -59,15 +59,6 @@
             />
           </a>
         </b-col>
-        <b-col cols="4">
-          <a href="https://www.atlassian.com/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
-              fluid
-            />
-          </a>
-        </b-col>
       </b-row>
     </div>
 
