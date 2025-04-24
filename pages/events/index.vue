@@ -30,7 +30,7 @@
     </p>
     <EventsAccordion
       name="wadsihworkshop2025"
-      accordion-text="WADSIH Resume Workshop- 2025"
+      accordion-text="WADSIH Resume Workshop - 2025"
       root-dir="events/wadsihworkshop2025"
       :images="wadsihworkshop2025"
     />
