@@ -28,7 +28,44 @@
         Let us know.
       </NuxtLink>
     </p>
+    <EventsAccordion
+      name="wadsihworkshop2025"
+      accordion-text="WADSIH Resume Workshop- 2025"
+      root-dir="events/wadsihworkshop2025"
+      :images="wadsihworkshop2025"
+    />
+    <EventsAccordion
+      name="tfti2025"
+      accordion-text="Talks from the Industry - 2025"
+      root-dir="events/tfti2025"
+      :images="tfti2025"
+    />
+    <EventsAccordion
+      name="internationalnight2025"
+      accordion-text="International Night - 2025"
+      root-dir="events/internationalnight2025"
+      :images="internationalnight2025"
+    />
 
+    <EventsAccordion
+      name="boardgamesnight2025"
+      accordion-text="Board Games Night - 2025"
+      root-dir="events/boardgamesnight2025"
+      :images="boardgamesnight2025"
+    />
+
+    <EventsAccordion
+      name="grillthedepartment2025"
+      accordion-text="Grill the Department - 2025"
+      root-dir="events/grillthedepartment2025"
+      :images="grillthedepartment2025"
+    />
+    <EventsAccordion
+      name="guildoday2025"
+      accordion-text="Guild O-Day - 2025"
+      root-dir="events/guildoday2025"
+      :images="guildoday2025"
+    />
     <EventsAccordion
       name="networkingsundowner2024"
       accordion-text="Networking Sundowner - 2024"
@@ -319,12 +356,30 @@ const getTFTI2024S2 = () =>
 const getNetworkingSundowner2024 = () =>
     Array.from(require.context("~/assets/img/events/networkingsundowner2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getGuildODay2025 = () =>
+    Array.from(require.context("~/assets/img/events/guildoday2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getGrillTheDepartment2025 = () =>
+    Array.from(require.context("~/assets/img/events/grillthedepartment2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getBoardGamesNight2025 = () =>
+    Array.from(require.context("~/assets/img/events/boardgamesnight2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getInternationalNight2025 = () =>
+    Array.from(require.context("~/assets/img/events/internationalnight2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getTFTI2025 = () =>
+    Array.from(require.context("~/assets/img/events/tfti2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getWADSIHWorkshop2025 = () =>
+    Array.from(require.context("~/assets/img/events/wadsihworkshop2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 export default {
     data () {
         return {
             lan2024: getLAN2024(),
             atr2024: getATR2024(),
             internationalnight2024: getInternationalNight2024(),
+            internationalnight2025: getInternationalNight2025(),
             lan2021: getLan2021(),
             lan2023: getLan2023(),
             s2lan2023: getS2Lan2023(),
@@ -341,14 +396,19 @@ export default {
             grillthedepartment2022: getGrillTheDepartment2022(),
             grillthedepartment2023: getGrillTheDepartment2023(),
             grillthedepartment2024: getGrillTheDepartment2024(),
+            grillthedepartment2025: getGrillTheDepartment2025(),
+            wadsihworkshop2025: getWADSIHWorkshop2025(),
             guildoday2022: getGuildODay2022(),
             guildoday2023: getGuildODay2023(),
             guildoday2024: getGuildODay2024(),
+            guildoday2025: getGuildODay2025(),
             atr2023: getATR2023(),
             internationalsundowner2023: getInternationalSundowner2023(),
             networkingsundowner2023: getNetworkingSundowner2023(),
             boardgamesnight2024: getBoardGamesNight2024(),
+            boardgamesnight2025: getBoardGamesNight2025(),
             tfti2024: getTFTI2024(),
+            tfti2025: getTFTI2025(),
             s2tfti2024: getTFTI2024S2(),
             internationalnightTwo2024: getInternationalNightTwo2024(),
             networkingsundowner2024: getNetworkingSundowner2024()
