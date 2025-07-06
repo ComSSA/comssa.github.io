@@ -27,12 +27,12 @@
           -->
         </p>
       </b-col>
-      <b-col md="auto" class="mt-5" style="width: 500px;">
+      <b-col md="auto" class="mt-5" style="width: 650px;">
         <v-lazy-image
           class="mb-5 rounded-corner"
-          width="500"
-          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about_2024'"
-          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about_2024'"
+          width="650"
+          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about_2025'"
+          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about_2025'"
         />
       </b-col>
     </b-row>
@@ -51,13 +51,13 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Sean McGinty"
+          name="Justis Koh"
           title="Vice President"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Stanley Zhong"
+          name="Kai Chen Chai"
           title="Treasurer"
         />
       </b-col>
@@ -79,13 +79,13 @@
         />
       </b-col><b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Ethan Olson"
+          name="Alice Arvidson"
           title="Marketing Coordinator"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Justis Koh"
+          name="Thomas Han"
           title="Technical Coordinator"
         />
       </b-col>
@@ -114,7 +114,7 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Kai Chen Chai"
+          name="Daniela Degasperi"
         />
       </b-col>
     </b-row>
@@ -126,7 +126,7 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Mia Tran"
+          name="Hua Chen"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
@@ -156,37 +156,9 @@
           name="Tri Dao"
         />
       </b-col>
-    </b-row>
-    <h3 class="ord-subheading">
-      Sub-Committee Members
-      <!--Added extra row to balance subs better-->
-    </h3>
-    <b-row align-h="around" class="mt-3 text-center">
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Daniela Degasperi"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Hua Chen"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Patrick Jong"
-        />
-      </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Jerry Zhang"
-        />
-      </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3 text-center">
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
-          name="Thomas Han"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
@@ -202,7 +174,6 @@
     </b-row>
   </b-container>
 </template>
-
 <script>
 export default {
     head: {

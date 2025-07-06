@@ -29,6 +29,18 @@
       </NuxtLink>
     </p>
     <EventsAccordion
+      name="lan2025"
+      accordion-text="LAN Night S1 @ Escape Portal - 2025"
+      root-dir="events/lan2025"
+      :images="lan2025"
+    />
+    <EventsAccordion
+      name="atr2025"
+      accordion-text="Amazing Tech Race - 2025"
+      root-dir="events/atr2025"
+      :images="atr2025"
+    />
+    <EventsAccordion
       name="wadsihworkshop2025"
       accordion-text="WADSIH Resume Workshop - 2025"
       root-dir="events/wadsihworkshop2025"
@@ -373,6 +385,12 @@ const getTFTI2025 = () =>
 
 const getWADSIHWorkshop2025 = () =>
     Array.from(require.context("~/assets/img/events/wadsihworkshop2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getATR2025 = () =>
+    Array.from(require.context("~/assets/img/events/atr2025", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getLAN2025 = () =>
+    Array.from(require.context("~/assets/img/events/lan2025", true, /\.(JPG|jpg|png)$/).keys()).map(s => s.substr(2))
 export default {
     data () {
         return {
@@ -382,6 +400,7 @@ export default {
             internationalnight2025: getInternationalNight2025(),
             lan2021: getLan2021(),
             lan2023: getLan2023(),
+            lan2025: getLAN2025(),
             s2lan2023: getS2Lan2023(),
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
@@ -403,6 +422,7 @@ export default {
             guildoday2024: getGuildODay2024(),
             guildoday2025: getGuildODay2025(),
             atr2023: getATR2023(),
+            atr2025: getATR2025(),
             internationalsundowner2023: getInternationalSundowner2023(),
             networkingsundowner2023: getNetworkingSundowner2023(),
             boardgamesnight2024: getBoardGamesNight2024(),
