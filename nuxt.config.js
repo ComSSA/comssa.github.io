@@ -5,7 +5,15 @@ export default {
     plugins: ["~/plugins/loadscript.js", "~/plugins/bootstrap.js", "~/plugins/lazyimage.js"],
     modules: ["@nuxt/content"],
     build: {
-        transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome", "vue-agile"]
+        transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome", "vue-agile"],
+        loaders: {
+            scss: {
+                implementation: require('sass'),
+                sassOptions: {
+                    fiber: false
+                }
+            }
+        }
     },
 
     generate: {
