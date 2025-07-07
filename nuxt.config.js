@@ -8,7 +8,7 @@ export default {
         transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome", "vue-agile"],
         loaders: {
             scss: {
-                implementation: require('sass'),
+                implementation: require("sass"),
                 sassOptions: {
                     fiber: false
                 }
