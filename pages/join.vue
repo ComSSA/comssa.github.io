@@ -8,7 +8,7 @@
     </h2>
     <ul>
       <li>Get discounts to ALL events.</li>
-      <li>Gain access to the ComSSA common room (314.345) after hours.</li>
+      <li>Gain access to the ComSSA common room (314.127) after hours.</li>
       <li>Get exclusive access to select events.</li>
       <li>Get free access to select events.</li>
     </ul>
