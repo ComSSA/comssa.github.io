@@ -26,7 +26,7 @@
       In-Person
     </h2>
     Talk to a committee member around building 314 at Curtin and we’ll be happy to sign you up. You can often find us hanging
-    out in the Comssa Common Room, Room 127 Level 3 Building 314. If you’re not sure who we are,
+    out in the Comssa Common Room, Room 127 Level 1 Building 314. If you’re not sure who we are,
     <NuxtLink to="/about">
       find out more about us
     </NuxtLink> or check
