@@ -45,25 +45,25 @@
     <b-row align-h="around" class="mt-3 mb-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Sophie Melville"
+          name="Justis Koh"
           title="President"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Justis Koh"
+          name="Jerry Zhang"
           title="Vice President"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Kai Chen Chai"
+          name="Lee Chao Cherng"
           title="Treasurer"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Cindy Lawrence"
+          name="Thomas Han"
           title="Secretary"
         />
       </b-col>
@@ -71,6 +71,10 @@
     <h3 class="ord-subheading">
       Ordinary Committee Members
     </h3>
+    <p class="text-center mt-3">
+      Ordinary Committee Members are currently being decided.
+    </p>
+    <!-- commented out !!
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
@@ -167,6 +171,7 @@
         />
       </b-col>
     </b-row>
+    -->
   </b-container>
 </template>
 <script>
